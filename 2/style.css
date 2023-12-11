@@ -1,0 +1,43 @@
+
+header {
+    width: 100%;
+    background-color: #ccc;
+    padding: 10px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    margin-left: 20px;
+  }
+
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  footer {
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+  }
