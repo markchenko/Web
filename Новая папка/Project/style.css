@@ -3276,3 +3276,8 @@ body {
     left: 325px;
   }
   
+  .mask-group {
+    width: 300px; /* задайте нужную ширину */
+    height: 200px; /* задайте нужную высоту */
+    background-color: black; /* цвет фона - черный */
+}
