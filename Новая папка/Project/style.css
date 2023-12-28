@@ -1,0 +1,3278 @@
+body {
+  background: url('video.png');
+  background-size: cover;
+}
+
+.video-background {
+  position: relative;
+  width: 100%; /* Установите нужную ширину и высоту */
+  height: 100%; /* Установите нужную ширину и высоту */
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Позволяет видео занимать всю область контейнера */
+}
+
+.drupal-coder {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .drupal-coder .drupal-coder-v {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 9378px;
+    position: relative;
+  }
+  
+  .drupal-coder .webform {
+    position: absolute;
+    width: 1440px;
+    height: 816px;
+    top: 8562px;
+    left: 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  
+  .drupal-coder .overlap {
+    position: absolute;
+    width: 1180px;
+    height: 595px;
+    top: 0;
+    left: 130px;
+  }
+  
+  .drupal-coder .d-flying {
+    position: absolute;
+    width: 289px;
+    height: 229px;
+    top: 0;
+    left: 453px;
+  }
+  
+  .drupal-coder .contacts {
+    position: absolute;
+    width: 480px;
+    height: 439px;
+    top: 117px;
+    left: 0;
+  }
+  
+  .drupal-coder .mail {
+    width: 249px;
+    height: 27px;
+    top: 404px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .drupal-coder .text-wrapper {
+    position: absolute;
+    height: 27px;
+    top: 0;
+    left: 44px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .div {
+    width: 28px;
+    height: 24px;
+    top: 2px;
+    opacity: 0.5;
+    background-image: url(./img/mail.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+  }
+  
+  .drupal-coder .phone {
+    position: absolute;
+    width: 307px;
+    height: 48px;
+    top: 351px;
+    left: 2px;
+  }
+  
+  .drupal-coder .text-wrapper-2 {
+    position: absolute;
+    height: 48px;
+    top: 0;
+    left: 42px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .phone-line {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 0;
+    opacity: 0.5;
+    background-image: url(./img/phone.svg);
+    background-size: 100% 100%;
+  }
+  
+  .drupal-coder .p {
+    position: absolute;
+    width: 480px;
+    top: 120px;
+    left: 0;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .drupal-coder .text-wrapper-3 {
+    position: absolute;
+    width: 480px;
+    top: -1px;
+    left: 0;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: #ffffff;
+    font-size: var(--titles-h2-font-size);
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .form {
+    position: absolute;
+    width: 480px;
+    height: 478px;
+    top: 117px;
+    left: 700px;
+  }
+  
+  .drupal-coder .input-empty {
+    height: 67px;
+    top: 0;
+    position: absolute;
+    width: 480px;
+    left: 0;
+  }
+  
+  .drupal-coder .overlap-group {
+    position: relative;
+    height: 68px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .drupal-coder .text-wrapper-4 {
+    position: absolute;
+    height: 16px;
+    top: 24px;
+    left: 23px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .overlap-wrapper {
+    height: 67px;
+    top: 75px;
+    position: absolute;
+    width: 480px;
+    left: 0;
+  }
+  
+  .drupal-coder .overlap-group-wrapper {
+    height: 67px;
+    top: 150px;
+    position: absolute;
+    width: 480px;
+    left: 0;
+  }
+  
+  .drupal-coder .div-wrapper {
+    height: 127px;
+    top: 225px;
+    position: absolute;
+    width: 480px;
+    left: 0;
+  }
+  
+  .drupal-coder .overlap-2 {
+    position: relative;
+    height: 128px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .drupal-coder .text-wrapper-5 {
+    position: absolute;
+    top: 24px;
+    left: 23px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .group {
+    position: absolute;
+    width: 466px;
+    height: 31px;
+    top: 367px;
+    left: 0;
+  }
+  
+  .drupal-coder .checkbox {
+    position: relative;
+    width: 468px;
+    height: 31px;
+  }
+  
+  .drupal-coder .text-wrapper-6 {
+    position: absolute;
+    width: 428px;
+    top: 0;
+    left: 38px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .checked-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .drupal-coder .button-primary {
+    width: 480px;
+    top: 418px;
+    left: 0;
+    background-color: var(--icons-1);
+    border-radius: 5px;
+    position: absolute;
+    height: 60px;
+  }
+  
+  .drupal-coder .text-wrapper-7 {
+    position: absolute;
+    height: 12px;
+    top: 23px;
+    left: 171px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .overlap-3 {
+    position: absolute;
+    width: 1441px;
+    height: 213px;
+    top: 603px;
+    left: 0;
+  }
+  
+  .drupal-coder .d {
+    position: absolute;
+    width: 466px;
+    height: 213px;
+    top: 0;
+    left: 974px;
+  }
+  
+  .drupal-coder .footer {
+    position: absolute;
+    width: 1441px;
+    height: 150px;
+    top: 63px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .drupal-coder .group-2 {
+    position: absolute;
+    width: 526px;
+    height: 40px;
+    top: 56px;
+    left: 130px;
+  }
+  
+  .drupal-coder .text-wrapper-8 {
+    position: absolute;
+    width: 421px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .text-wrapper-9 {
+    width: 522px;
+    top: 23px;
+    left: 0;
+    opacity: 0.5;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .vector {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .partners {
+    position: absolute;
+    width: 1440px;
+    height: 477px;
+    top: 7925px;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .text-wrapper-10 {
+    position: absolute;
+    width: 740px;
+    top: 60px;
+    left: 350px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    text-align: center;
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-11 {
+    position: absolute;
+    top: -1px;
+    left: 525px;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h2-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .group-3 {
+    position: absolute;
+    width: 1535px;
+    height: 155px;
+    top: 147px;
+    left: -13px;
+  }
+  
+  .drupal-coder .frame {
+    position: absolute;
+    width: 291px;
+    height: 155px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .drupal-coder .image {
+    width: 150px;
+    height: 150px;
+    top: 2px;
+    left: 70px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .image-wrapper {
+    left: 311px;
+    position: absolute;
+    width: 291px;
+    height: 155px;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .drupal-coder .img {
+    width: 97px;
+    height: 97px;
+    top: 28px;
+    left: 96px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .img-wrapper {
+    left: 1244px;
+    position: absolute;
+    width: 291px;
+    height: 155px;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .drupal-coder .image-2 {
+    width: 88px;
+    height: 88px;
+    top: 33px;
+    left: 101px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .frame-2 {
+    left: 622px;
+    background-color: var(--white);
+    position: absolute;
+    width: 291px;
+    height: 155px;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .drupal-coder .image-3 {
+    width: 186px;
+    height: 38px;
+    top: 58px;
+    left: 52px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .frame-3 {
+    left: 933px;
+    position: absolute;
+    width: 291px;
+    height: 155px;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .drupal-coder .image-4 {
+    width: 102px;
+    height: 37px;
+    top: 58px;
+    left: 94px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .group-4 {
+    position: absolute;
+    width: 1846px;
+    height: 155px;
+    top: 322px;
+    left: -171px;
+  }
+  
+  .drupal-coder .image-5 {
+    width: 19px;
+    height: 88px;
+    top: 33px;
+    left: 170px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .frame-4 {
+    position: absolute;
+    width: 291px;
+    height: 155px;
+    top: 0;
+    left: 1555px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .drupal-coder .image-6 {
+    position: absolute;
+    width: 3px;
+    height: 38px;
+    top: 58px;
+    left: 52px;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .frame-5 {
+    position: absolute;
+    width: 291px;
+    height: 155px;
+    top: 0;
+    left: 622px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .drupal-coder .reviews {
+    position: absolute;
+    width: 1440px;
+    height: 586px;
+    top: 7179px;
+    left: 0;
+  }
+  
+  .drupal-coder .overlap-4 {
+    position: relative;
+    width: 1210px;
+    height: 675px;
+    top: -89px;
+  }
+  
+  .drupal-coder .text-wrapper-12 {
+    position: absolute;
+    height: 51px;
+    top: 88px;
+    left: 630px;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h2-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .overlap-5 {
+    position: absolute;
+    width: 1210px;
+    height: 675px;
+    top: 0;
+    left: 0;
+  }
+  
+  .drupal-coder .right-quote-sign {
+    position: absolute;
+    width: 386px;
+    height: 493px;
+    top: 0;
+    left: 0;
+  }
+  
+  .drupal-coder .rectangle {
+    position: absolute;
+    width: 724px;
+    height: 466px;
+    top: 186px;
+    left: 358px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #0000001a;
+    box-shadow: 0px 4px 60px #a1a1a140;
+    opacity: 0.34;
+  }
+  
+  .drupal-coder .rectangle-2 {
+    position: absolute;
+    width: 852px;
+    height: 457px;
+    top: 218px;
+    left: 294px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #0000001a;
+    box-shadow: 0px 4px 60px #a1a1a140;
+    opacity: 0.5;
+  }
+  
+  .drupal-coder .frame-6 {
+    position: absolute;
+    width: 980px;
+    height: 416px;
+    top: 259px;
+    left: 230px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #0000001a;
+    box-shadow: 0px 4px 60px #a1a1a140;
+  }
+  
+  .drupal-coder .vector-2 {
+    position: absolute;
+    width: 1px;
+    height: 282px;
+    top: 66px;
+    left: 627px;
+  }
+  
+  .drupal-coder .arrow-right {
+    position: absolute;
+    width: 17px;
+    height: 33px;
+    top: 201px;
+    left: 883px;
+  }
+  
+  .drupal-coder .arrow-left {
+    position: absolute;
+    width: 17px;
+    height: 33px;
+    top: 201px;
+    left: 692px;
+  }
+  
+  .drupal-coder .element {
+    position: absolute;
+    height: 28px;
+    top: 202px;
+    left: 755px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .span {
+    color: #040c33;
+  }
+  
+  .drupal-coder .text-wrapper-13 {
+    color: #e0e0e0;
+  }
+  
+  .drupal-coder .text-wrapper-14 {
+    width: 380px;
+    top: 280px;
+    left: 127px;
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: normal;
+    position: absolute;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .image-7 {
+    width: 200px;
+    height: 46px;
+    top: 79px;
+    left: 127px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .text-wrapper-15 {
+    width: 440px;
+    top: 165px;
+    left: 127px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-black);
+    font-size: 24px;
+    line-height: normal;
+    text-decoration: underline;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .team {
+    position: absolute;
+    width: 1086px;
+    height: 966px;
+    top: 6053px;
+    left: 180px;
+  }
+  
+  .drupal-coder .text-wrapper-16 {
+    position: absolute;
+    top: 0;
+    left: 439px;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h2-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .group-wrapper {
+    position: absolute;
+    width: 280px;
+    height: 379px;
+    top: 131px;
+    left: 0;
+  }
+  
+  .drupal-coder .group-5 {
+    position: relative;
+    height: 379px;
+  }
+  
+  .drupal-coder .group-6 {
+    position: absolute;
+    width: 284px;
+    height: 69px;
+    top: 310px;
+    left: 0;
+  }
+  
+  .drupal-coder .text-wrapper-17 {
+    position: absolute;
+    width: 280px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-black);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .drupal-coder .text-wrapper-18 {
+    position: absolute;
+    width: 280px;
+    top: 25px;
+    left: 0;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .image-8 {
+    width: 280px;
+    height: 280px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .group-7 {
+    position: absolute;
+    width: 280px;
+    height: 379px;
+    top: 587px;
+    left: 400px;
+  }
+  
+  .drupal-coder .group-8 {
+    position: relative;
+    width: 284px;
+    height: 379px;
+  }
+  
+  .drupal-coder .text-wrapper-19 {
+    position: absolute;
+    width: 280px;
+    top: 310px;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-black);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .drupal-coder .text-wrapper-20 {
+    width: 280px;
+    top: 335px;
+    opacity: 0.7;
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    line-height: var(--text-16px-line-height);
+    position: absolute;
+    left: 0;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    letter-spacing: var(--text-16px-letter-spacing);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-21 {
+    position: absolute;
+    width: 280px;
+    top: 441px;
+    left: 800px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-black);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .drupal-coder .text-wrapper-22 {
+    position: absolute;
+    width: 280px;
+    top: 466px;
+    left: 800px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .image-9 {
+    width: 280px;
+    height: 280px;
+    top: 131px;
+    left: 800px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .group-9 {
+    position: absolute;
+    width: 280px;
+    height: 357px;
+    top: 587px;
+    left: 0;
+  }
+  
+  .drupal-coder .group-10 {
+    position: relative;
+    width: 284px;
+    height: 357px;
+  }
+  
+  .drupal-coder .group-11 {
+    position: absolute;
+    width: 280px;
+    height: 357px;
+    top: 131px;
+    left: 400px;
+  }
+  
+  .drupal-coder .group-12 {
+    position: absolute;
+    width: 280px;
+    height: 357px;
+    top: 587px;
+    left: 800px;
+  }
+  
+  .drupal-coder .cases {
+    position: absolute;
+    width: 1180px;
+    height: 1656px;
+    top: 4237px;
+    left: 130px;
+  }
+  
+  .drupal-coder .case-card {
+    position: absolute;
+    width: 380px;
+    height: 475px;
+    top: 111px;
+    left: 0;
+  }
+  
+  .drupal-coder .text-wrapper-23 {
+    width: 320px;
+    top: 254px;
+    left: 30px;
+    color: var(--main-black);
+    position: absolute;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-24 {
+    width: 320px;
+    top: 303px;
+    left: 30px;
+    color: var(--main-black);
+    position: absolute;
+    opacity: 0.5;
+    font-family: var(--labels-12-bold-font-family);
+    font-weight: var(--labels-12-bold-font-weight);
+    font-size: var(--labels-12-bold-font-size);
+    letter-spacing: var(--labels-12-bold-letter-spacing);
+    line-height: var(--labels-12-bold-line-height);
+    font-style: var(--labels-12-bold-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-25 {
+    position: absolute;
+    width: 313px;
+    top: 338px;
+    left: 30px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .drupal-coder .overlap-group-2 {
+    position: absolute;
+    width: 380px;
+    height: 215px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(244.37, 244.37, 244.37, 0.6) 28.12%,
+      rgba(209.31, 209.31, 209.31, 0.6) 100%
+    );
+    background-image: url(./img/image-6-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: var(--gradient-card-gray);
+  }
+  
+  .drupal-coder .image-10 {
+    width: 380px;
+    height: 215px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .case-card-2 {
+    position: absolute;
+    width: 380px;
+    height: 475px;
+    top: 606px;
+    left: 800px;
+  }
+  
+  .drupal-coder .overlap-6 {
+    position: absolute;
+    width: 380px;
+    height: 215px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(244.37, 244.37, 244.37, 0.6) 28.12%,
+      rgba(209.31, 209.31, 209.31, 0.6) 100%
+    );
+    background-image: url(./img/image-6-2-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: var(--gradient-card-gray);
+  }
+  
+  .drupal-coder .case-card-vert-image {
+    position: absolute;
+    width: 380px;
+    height: 475px;
+    top: 606px;
+    left: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(244.37, 244.37, 244.37, 0.6) 28.12%,
+      rgba(209.31, 209.31, 209.31, 0.6) 100%
+    );
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: var(--gradient-card-gray);
+  }
+  
+  .drupal-coder .overlap-7 {
+    position: relative;
+    height: 475px;
+    background-image: url(./img/image-7-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .drupal-coder .image-11 {
+    width: 380px;
+    height: 475px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .rectangle-3 {
+    position: absolute;
+    width: 380px;
+    height: 349px;
+    top: 126px;
+    left: 0;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  .drupal-coder .text-wrapper-26 {
+    width: 300px;
+    top: 360px;
+    left: 40px;
+    color: #ffffff;
+    position: absolute;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-27 {
+    width: 300px;
+    top: 409px;
+    left: 40px;
+    color: #ffffff;
+    position: absolute;
+    opacity: 0.5;
+    font-family: var(--labels-12-bold-font-family);
+    font-weight: var(--labels-12-bold-font-weight);
+    font-size: var(--labels-12-bold-font-size);
+    letter-spacing: var(--labels-12-bold-letter-spacing);
+    line-height: var(--labels-12-bold-line-height);
+    font-style: var(--labels-12-bold-font-style);
+  }
+  
+  .drupal-coder .case-card-vert-image-2 {
+    top: 606px;
+    left: 400px;
+    position: absolute;
+    width: 380px;
+    height: 475px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(244.37, 244.37, 244.37, 0.6) 28.12%,
+      rgba(209.31, 209.31, 209.31, 0.6) 100%
+    );
+    background-image: url(./img/image-6-3-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: var(--gradient-card-gray);
+  }
+  
+  .drupal-coder .overlap-8 {
+    position: relative;
+    height: 475px;
+    background-image: url(./img/image-7-3-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .drupal-coder .case-card-vert-image-3 {
+    top: 1101px;
+    left: 800px;
+    position: absolute;
+    width: 380px;
+    height: 475px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(244.37, 244.37, 244.37, 0.6) 28.12%,
+      rgba(209.31, 209.31, 209.31, 0.6) 100%
+    );
+    background-image: url(./img/image-6-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: var(--gradient-card-gray);
+  }
+  
+  .drupal-coder .overlap-9 {
+    position: relative;
+    height: 349px;
+    top: 126px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  .drupal-coder .text-wrapper-28 {
+    width: 300px;
+    top: 234px;
+    left: 40px;
+    color: #ffffff;
+    position: absolute;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-29 {
+    width: 300px;
+    top: 283px;
+    left: 40px;
+    color: #ffffff;
+    position: absolute;
+    opacity: 0.5;
+    font-family: var(--labels-12-bold-font-family);
+    font-weight: var(--labels-12-bold-font-weight);
+    font-size: var(--labels-12-bold-font-size);
+    letter-spacing: var(--labels-12-bold-letter-spacing);
+    line-height: var(--labels-12-bold-line-height);
+    font-style: var(--labels-12-bold-font-style);
+  }
+  
+  .drupal-coder .case-big {
+    top: 111px;
+    left: 400px;
+    position: absolute;
+    width: 780px;
+    height: 475px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(244.37, 244.37, 244.37, 0.6) 28.12%,
+      rgba(209.31, 209.31, 209.31, 0.6) 100%
+    );
+    background-image: url(./img/image-6-1-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: var(--gradient-card-gray);
+  }
+  
+  .drupal-coder .overlap-10 {
+    position: relative;
+    height: 475px;
+    background-image: url(./img/image-7-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .drupal-coder .image-12 {
+    width: 780px;
+    height: 475px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .rectangle-4 {
+    position: absolute;
+    width: 780px;
+    height: 354px;
+    top: 121px;
+    left: 0;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  .drupal-coder .text-wrapper-30 {
+    width: 320px;
+    top: 390px;
+    left: 40px;
+    color: #ffffff;
+    position: absolute;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .case-big-2 {
+    top: 1101px;
+    left: 0;
+    position: absolute;
+    width: 780px;
+    height: 475px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(244.37, 244.37, 244.37, 0.6) 28.12%,
+      rgba(209.31, 209.31, 209.31, 0.6) 100%
+    );
+    background-image: url(./img/image-6-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: var(--gradient-card-gray);
+  }
+  
+  .drupal-coder .overlap-11 {
+    position: relative;
+    height: 475px;
+    background-image: url(./img/image-7-1-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .drupal-coder .text-wrapper-31 {
+    position: absolute;
+    top: -1px;
+    left: 384px;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h2-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .button-primary-2 {
+    width: 260px;
+    top: 1596px;
+    left: 460px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: var(--main-black);
+    position: absolute;
+    height: 60px;
+  }
+  
+  .drupal-coder .text-wrapper-32 {
+    position: absolute;
+    height: 12px;
+    top: 22px;
+    left: 74px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .overlap-12 {
+    position: absolute;
+    width: 1492px;
+    height: 2451px;
+    top: 1626px;
+    left: -50px;
+  }
+  
+  .drupal-coder .d-2 {
+    position: absolute;
+    width: 835px;
+    height: 843px;
+    top: 1378px;
+    left: 655px;
+  }
+  
+  .drupal-coder .plans {
+    position: absolute;
+    width: 1183px;
+    height: 913px;
+    top: 1538px;
+    left: 180px;
+  }
+  
+  .drupal-coder .text-wrapper-33 {
+    position: absolute;
+    width: 580px;
+    height: 30px;
+    top: 0;
+    left: 300px;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: #000000;
+    font-size: var(--titles-h2-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    white-space: nowrap;
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-34 {
+    position: absolute;
+    width: 468px;
+    top: 807px;
+    left: 356px;
+    opacity: 0.5;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    text-align: center;
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .overlap-13 {
+    position: absolute;
+    width: 1179px;
+    height: 693px;
+    top: 76px;
+    left: 0;
+  }
+  
+  .drupal-coder .component {
+    position: absolute;
+    width: 390px;
+    height: 657px;
+    top: 36px;
+    left: 0;
+  }
+  
+  .drupal-coder .overlap-14 {
+    position: relative;
+    height: 654px;
+    top: 3px;
+  }
+  
+  .drupal-coder .rectangle-wrapper {
+    position: absolute;
+    width: 390px;
+    height: 654px;
+    top: 0;
+    left: 0;
+  }
+  
+  .drupal-coder .rectangle-5 {
+    position: relative;
+    height: 619px;
+    top: -1px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #0000001a;
+  }
+  
+  .drupal-coder .group-13 {
+    width: 239px;
+    top: 77px;
+    left: 60px;
+    position: absolute;
+    height: 112px;
+  }
+  
+  .drupal-coder .overlap-group-3 {
+    position: relative;
+    width: 231px;
+    height: 112px;
+  }
+  
+  .drupal-coder .overlap-group-4 {
+    position: absolute;
+    width: 231px;
+    height: 112px;
+    top: 0;
+    left: 0;
+  }
+  
+  .drupal-coder .text-wrapper-35 {
+    width: 197px;
+    height: 72px;
+    top: 26px;
+    color: var(--main-black);
+    font-size: 72px;
+    line-height: 72px;
+    position: absolute;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .text-wrapper-36 {
+    position: absolute;
+    width: 231px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--icons-1);
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .text-wrapper-37 {
+    position: absolute;
+    width: 125px;
+    height: 18px;
+    top: 94px;
+    left: 0;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .text-wrapper-38 {
+    position: absolute;
+    width: 22px;
+    top: 37px;
+    left: 202px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .drupal-coder .text-wrapper-39 {
+    position: absolute;
+    width: 239px;
+    top: 248px;
+    left: 91px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .text-wrapper-40 {
+    position: absolute;
+    width: 239px;
+    top: 367px;
+    left: 91px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .text-wrapper-41 {
+    position: absolute;
+    width: 239px;
+    top: 406px;
+    left: 91px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .button-secondary {
+    width: 260px;
+    top: 510px;
+    left: 60px;
+    position: absolute;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #f14d3466;
+  }
+  
+  .drupal-coder .text-wrapper-42 {
+    position: absolute;
+    height: 12px;
+    top: 22px;
+    left: 60px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #f14d34;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .vector-3 {
+    position: absolute;
+    width: 270px;
+    height: 1px;
+    top: 208px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .checked {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 252px;
+    left: 60px;
+  }
+  
+  .drupal-coder .img-2 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .drupal-coder .vector-wrapper {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 371px;
+    left: 60px;
+  }
+  
+  .drupal-coder .checked-2 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 412px;
+    left: 60px;
+  }
+  
+  .drupal-coder .text-wrapper-43 {
+    width: 239px;
+    top: 289px;
+    left: 90px;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .vector-4 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 294px;
+    left: 59px;
+  }
+  
+  .drupal-coder .text-wrapper-44 {
+    position: absolute;
+    width: 239px;
+    top: 329px;
+    left: 90px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .vector-5 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 334px;
+    left: 59px;
+  }
+  
+  .drupal-coder .component-2 {
+    position: absolute;
+    width: 390px;
+    height: 583px;
+    top: 36px;
+    left: 789px;
+  }
+  
+  .drupal-coder .overlap-15 {
+    position: relative;
+    height: 619px;
+    top: 4px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #0000001a;
+  }
+  
+  .drupal-coder .overlap-16 {
+    position: absolute;
+    width: 237px;
+    height: 112px;
+    top: 76px;
+    left: 60px;
+  }
+  
+  .drupal-coder .group-14 {
+    width: 237px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 112px;
+  }
+  
+  .drupal-coder .text-wrapper-45 {
+    position: absolute;
+    top: 35px;
+    left: 184px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .button-secondary-2 {
+    width: 270px;
+    top: 508px;
+    left: 59px;
+    position: absolute;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #f14d3466;
+  }
+  
+  .drupal-coder .text-wrapper-46 {
+    position: absolute;
+    height: 12px;
+    top: 22px;
+    left: 65px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #f14d34;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .vector-6 {
+    position: absolute;
+    width: 270px;
+    height: 1px;
+    top: 206px;
+    left: 59px;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .text-wrapper-47 {
+    position: absolute;
+    width: 239px;
+    top: 246px;
+    left: 90px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .text-wrapper-48 {
+    position: absolute;
+    width: 251px;
+    top: 365px;
+    left: 90px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .text-wrapper-49 {
+    position: absolute;
+    width: 199px;
+    top: 424px;
+    left: 90px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .checked-3 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 250px;
+    left: 59px;
+  }
+  
+  .drupal-coder .checked-4 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 369px;
+    left: 59px;
+  }
+  
+  .drupal-coder .checked-5 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 429px;
+    left: 59px;
+  }
+  
+  .drupal-coder .text-wrapper-50 {
+    width: 239px;
+    top: 287px;
+    left: 89px;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .vector-7 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 292px;
+    left: 58px;
+  }
+  
+  .drupal-coder .text-wrapper-51 {
+    position: absolute;
+    width: 239px;
+    top: 327px;
+    left: 89px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .drupal-coder .vector-8 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 332px;
+    left: 58px;
+  }
+  
+  .drupal-coder .component-3 {
+    position: absolute;
+    width: 420px;
+    height: 627px;
+    top: 0;
+    left: 380px;
+  }
+  
+  .drupal-coder .overlap-17 {
+    position: relative;
+    height: 665px;
+    top: 14px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #0000001a;
+    box-shadow: 0px 4px 60px #a1a1a140;
+  }
+  
+  .drupal-coder .group-15 {
+    width: 239px;
+    top: 65px;
+    left: 59px;
+    position: absolute;
+    height: 112px;
+  }
+  
+  .drupal-coder .button-primary-3 {
+    width: 300px;
+    top: 542px;
+    left: 59px;
+    background-color: var(--icons-1);
+    border-radius: 5px;
+    position: absolute;
+    height: 60px;
+  }
+  
+  .drupal-coder .text-wrapper-52 {
+    position: absolute;
+    height: 12px;
+    top: 23px;
+    left: 81px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .vector-9 {
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    top: 196px;
+    left: 59px;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .text-wrapper-53 {
+    position: absolute;
+    width: 268px;
+    top: 244px;
+    left: 91px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .element-2 {
+    position: absolute;
+    width: 268px;
+    top: 363px;
+    left: 91px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-54 {
+    position: absolute;
+    width: 223px;
+    top: 422px;
+    left: 91px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .checked-6 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 248px;
+    left: 60px;
+  }
+  
+  .drupal-coder .checked-7 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 367px;
+    left: 60px;
+  }
+  
+  .drupal-coder .checked-8 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 427px;
+    left: 60px;
+  }
+  
+  .drupal-coder .text-wrapper-55 {
+    width: 268px;
+    top: 285px;
+    left: 90px;
+    font-size: var(--text-16px-font-size);
+    line-height: var(--text-16px-line-height);
+    position: absolute;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    letter-spacing: var(--text-16px-letter-spacing);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .vector-10 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 290px;
+    left: 59px;
+  }
+  
+  .drupal-coder .text-wrapper-56 {
+    position: absolute;
+    width: 268px;
+    top: 325px;
+    left: 90px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .vector-11 {
+    position: absolute;
+    width: 13px;
+    height: 10px;
+    top: 330px;
+    left: 59px;
+  }
+  
+  .drupal-coder .button-primary-4 {
+    width: 290px;
+    top: 853px;
+    left: 445px;
+    position: absolute;
+    height: 60px;
+  }
+  
+  .drupal-coder .text-wrapper-57 {
+    position: absolute;
+    height: 12px;
+    top: 23px;
+    left: 6px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--main-black);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    line-height: 12px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .support {
+    position: absolute;
+    width: 1492px;
+    height: 1438px;
+    top: 0;
+    left: 0;
+  }
+  
+  .drupal-coder .overlap-18 {
+    position: relative;
+    width: 1440px;
+    height: 1506px;
+    left: 50px;
+  }
+  
+  .drupal-coder .rectangle-6 {
+    position: absolute;
+    width: 1440px;
+    height: 839px;
+    top: 539px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  
+  .drupal-coder .mask-group {
+    position: absolute;
+    width: 1440px;
+    height: 839px;
+    top: 539px;
+    left: 0;
+  }
+  
+  .drupal-coder .text-wrapper-58 {
+    width: 480px;
+    top: 944px;
+    left: 730px;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: var(--white);
+    font-size: var(--titles-h2-font-size);
+    line-height: var(--titles-h2-line-height);
+    position: absolute;
+    letter-spacing: var(--titles-h2-letter-spacing);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .laptop {
+    position: absolute;
+    width: 679px;
+    height: 655px;
+    top: 851px;
+    left: 0;
+  }
+  
+  .drupal-coder .group-16 {
+    position: absolute;
+    width: 282px;
+    height: 100px;
+    top: 1105px;
+    left: 1030px;
+  }
+  
+  .drupal-coder .drupal-CMS {
+    width: 256px;
+    top: 7px;
+    left: 24px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--white);
+    font-size: var(--text-16px-font-size);
+    line-height: var(--text-16px-line-height);
+    position: absolute;
+    letter-spacing: var(--text-16px-letter-spacing);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .rectangle-7 {
+    position: absolute;
+    width: 3px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: #f14d34;
+  }
+  
+  .drupal-coder .group-17 {
+    position: absolute;
+    width: 282px;
+    height: 100px;
+    top: 1105px;
+    left: 730px;
+  }
+  
+  .drupal-coder .text-wrapper-59 {
+    position: absolute;
+    width: 257px;
+    top: 7px;
+    left: 23px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--white);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .group-18 {
+    position: absolute;
+    width: 1186px;
+    height: 747px;
+    top: 0;
+    left: 104px;
+  }
+  
+  .drupal-coder .text-wrapper-60 {
+    position: absolute;
+    width: 406px;
+    top: 0;
+    left: 396px;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h2-font-size);
+    text-align: center;
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .group-19 {
+    position: absolute;
+    width: 1184px;
+    height: 589px;
+    top: 158px;
+    left: 0;
+    box-shadow: 20px 20px 40px #040c330d;
+  }
+  
+  .drupal-coder .element-3 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 297px;
+    left: 892px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .support-2 {
+    position: absolute;
+    width: 85px;
+    height: 80px;
+    top: 212px;
+    left: 207px;
+  }
+  
+  .drupal-coder .text-wrapper-61 {
+    position: absolute;
+    width: 232px;
+    top: 107px;
+    left: 25px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-62 {
+    position: absolute;
+    width: 232px;
+    top: 51px;
+    left: 25px;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-63 {
+    position: absolute;
+    width: 232px;
+    top: 26px;
+    left: 25px;
+    opacity: 0.5;
+    font-family: var(--labels-12-bold-font-family);
+    font-weight: var(--labels-12-bold-font-weight);
+    color: var(--main-black);
+    font-size: var(--labels-12-bold-font-size);
+    letter-spacing: var(--labels-12-bold-letter-spacing);
+    line-height: var(--labels-12-bold-line-height);
+    font-style: var(--labels-12-bold-font-style);
+  }
+  
+  .drupal-coder .element-4 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 297px;
+    left: 594px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .support-3 {
+    position: absolute;
+    width: 85px;
+    height: 84px;
+    top: 208px;
+    left: 207px;
+  }
+  
+  .drupal-coder .element-5 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 297px;
+    left: 297px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .overlap-group-5 {
+    position: absolute;
+    width: 267px;
+    height: 185px;
+    top: 107px;
+    left: 25px;
+  }
+  
+  .drupal-coder .support-4 {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    top: 101px;
+    left: 183px;
+  }
+  
+  .drupal-coder .text-wrapper-64 {
+    position: absolute;
+    width: 232px;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .SLA-NDA {
+    position: absolute;
+    width: 169px;
+    top: 51px;
+    left: 25px;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .element-6 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 297px;
+    left: 0;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .support-5 {
+    position: absolute;
+    width: 89px;
+    height: 96px;
+    top: 89px;
+    left: 178px;
+  }
+  
+  .drupal-coder .element-7 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 0;
+    left: 892px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .overlap-19 {
+    position: absolute;
+    width: 267px;
+    height: 175px;
+    top: 117px;
+    left: 25px;
+  }
+  
+  .drupal-coder .support-6 {
+    position: absolute;
+    width: 85px;
+    height: 84px;
+    top: 91px;
+    left: 182px;
+  }
+  
+  .drupal-coder .text-wrapper-65 {
+    position: absolute;
+    width: 231px;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-66 {
+    position: absolute;
+    width: 231px;
+    top: 61px;
+    left: 25px;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-67 {
+    position: absolute;
+    width: 231px;
+    top: 26px;
+    left: 25px;
+    opacity: 0.5;
+    font-family: var(--labels-12-bold-font-family);
+    font-weight: var(--labels-12-bold-font-weight);
+    color: var(--main-black);
+    font-size: var(--labels-12-bold-font-size);
+    letter-spacing: var(--labels-12-bold-letter-spacing);
+    line-height: var(--labels-12-bold-line-height);
+    font-style: var(--labels-12-bold-font-style);
+  }
+  
+  .drupal-coder .element-8 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 0;
+    left: 594px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .overlap-20 {
+    position: absolute;
+    width: 267px;
+    height: 153px;
+    top: 139px;
+    left: 25px;
+  }
+  
+  .drupal-coder .support-7 {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    top: 69px;
+    left: 183px;
+  }
+  
+  .drupal-coder .text-wrapper-68 {
+    position: absolute;
+    width: 242px;
+    top: 61px;
+    left: 25px;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .element-9 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 0;
+    left: 297px;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .text-wrapper-69 {
+    position: absolute;
+    width: 232px;
+    top: 61px;
+    left: 25px;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .element-10 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .drupal-coder .overlap-21 {
+    position: absolute;
+    width: 266px;
+    height: 175px;
+    top: 117px;
+    left: 26px;
+  }
+  
+  .drupal-coder .support-8 {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    top: 91px;
+    left: 182px;
+  }
+  
+  .drupal-coder .text-wrapper-70 {
+    position: absolute;
+    width: 233px;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-71 {
+    position: absolute;
+    width: 232px;
+    top: 61px;
+    left: 26px;
+    font-family: var(--titles-h4-font-family);
+    font-weight: var(--titles-h4-font-weight);
+    color: var(--main-black);
+    font-size: var(--titles-h4-font-size);
+    letter-spacing: var(--titles-h4-letter-spacing);
+    line-height: var(--titles-h4-line-height);
+    font-style: var(--titles-h4-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-72 {
+    position: absolute;
+    width: 232px;
+    top: 26px;
+    left: 26px;
+    opacity: 0.5;
+    font-family: var(--labels-12-bold-font-family);
+    font-weight: var(--labels-12-bold-font-weight);
+    color: var(--main-black);
+    font-size: var(--labels-12-bold-font-size);
+    letter-spacing: var(--labels-12-bold-letter-spacing);
+    line-height: var(--labels-12-bold-line-height);
+    font-style: var(--labels-12-bold-font-style);
+  }
+  
+  .drupal-coder .services {
+    position: absolute;
+    width: 1086px;
+    height: 716px;
+    top: 750px;
+    left: 130px;
+  }
+  
+  .drupal-coder .adv {
+    top: 522px;
+    left: 600px;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .overlap-group-6 {
+    position: absolute;
+    width: 136px;
+    height: 88px;
+    top: 0;
+    left: -55px;
+  }
+  
+  .drupal-coder .img-3 {
+    position: absolute;
+    width: 114px;
+    height: 71px;
+    top: 17px;
+    left: 0;
+  }
+  
+  .drupal-coder .icons {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    top: 0;
+    left: 55px;
+  }
+  
+  .drupal-coder .text-wrapper-73 {
+    width: 182px;
+    top: 105px;
+    left: 0;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    line-height: var(--text-16px-line-height);
+    position: absolute;
+    letter-spacing: var(--text-16px-letter-spacing);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .adv-2 {
+    top: 278px;
+    left: 0;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .adv-3 {
+    top: 278px;
+    left: 299px;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .overlap-group-7 {
+    position: relative;
+    width: 70px;
+    height: 52px;
+    top: 16px;
+    left: 5px;
+    background-image: url(./img/rectangle.svg);
+    background-size: 100% 100%;
+  }
+  
+  .drupal-coder .vector-12 {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 7px;
+    left: 26px;
+  }
+  
+  .drupal-coder .vector-13 {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 7px;
+    left: 6px;
+  }
+  
+  .drupal-coder .vector-14 {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 18px;
+    left: 6px;
+  }
+  
+  .drupal-coder .vector-15 {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 24px;
+    left: 6px;
+  }
+  
+  .drupal-coder .vector-16 {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 30px;
+    left: 6px;
+  }
+  
+  .drupal-coder .vector-17 {
+    position: absolute;
+    width: 4px;
+    height: 2px;
+    top: 36px;
+    left: 6px;
+  }
+  
+  .drupal-coder .vector-18 {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 7px;
+    left: 36px;
+  }
+  
+  .drupal-coder .vector-19 {
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 7px;
+    left: 47px;
+  }
+  
+  .drupal-coder .text-wrapper-74 {
+    position: absolute;
+    top: 17px;
+    left: 26px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--main-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .adv-4 {
+    top: 278px;
+    left: 600px;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .adv-5 {
+    top: 522px;
+    left: 1px;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .adv-6 {
+    top: 522px;
+    left: 299px;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .adv-7 {
+    top: 522px;
+    left: 900px;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .adv-8 {
+    top: 278px;
+    left: 900px;
+    position: absolute;
+    width: 182px;
+    height: 194px;
+  }
+  
+  .drupal-coder .element-drupal {
+    width: 580px;
+    top: 0;
+    left: 9px;
+    color: var(--main-black);
+    font-size: var(--titles-h2-font-size);
+    position: absolute;
+    font-family: var(--titles-h2-font-family);
+    font-weight: var(--titles-h2-font-weight);
+    letter-spacing: var(--titles-h2-letter-spacing);
+    line-height: var(--titles-h2-line-height);
+    font-style: var(--titles-h2-font-style);
+  }
+  
+  .drupal-coder .text-wrapper-75 {
+    position: absolute;
+    width: 493px;
+    top: 171px;
+    left: 9px;
+    opacity: 0.7;
+    font-family: var(--text-16px-font-family);
+    font-weight: var(--text-16px-font-weight);
+    color: var(--main-black);
+    font-size: var(--text-16px-font-size);
+    letter-spacing: var(--text-16px-letter-spacing);
+    line-height: var(--text-16px-line-height);
+    font-style: var(--text-16px-font-style);
+  }
+  
+  .drupal-coder .header {
+    position: absolute;
+    width: 1440px;
+    height: 650px;
+    top: 0;
+    left: -3px;
+    background-color: transparent;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  
+  .drupal-coder .overlap-22 {
+    position: relative;
+    width: 1437px;
+    height: 742px;
+    left: 3px;
+    z-index: 1
+  }
+  
+  .drupal-coder .img-4 {
+    position: absolute;
+    width: 1437px;
+    height: 650px;
+    top: 0;
+    left: 0;
+  }
+  
+  .drupal-coder .druplicon {
+    position: absolute;
+    width: 764px;
+    height: 742px;
+    top: 0;
+    left: 0;
+  }
+  
+  .drupal-coder .text-wrapper-76 {
+    position: absolute;
+    top: 36px;
+    left: 1082px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 14px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .text-wrapper-77 {
+    position: absolute;
+    top: 36px;
+    left: 1264px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 14px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .group-20 {
+    position: absolute;
+    width: 137px;
+    height: 19px;
+    top: 34px;
+    left: 127px;
+  }
+  
+  .drupal-coder .text-wrapper-78 {
+    position: absolute;
+    top: 38px;
+    left: 325px;
+    font-family: "Ubuntu-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    line-height: 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  .text-wrapper-78 a {
+    text-decoration: none;
+    color: #ffffff; /* Установите цвет текста по умолчанию */
+    transition: color 0.3s ease;
+  }
+  .text-wrapper-78 a:hover {
+    color: #ff0000; 
+  }
+  
+  .drupal-coder .text-wrapper-79 {
+    position: absolute;
+    top: 38px;
+    left: 582px;
+    opacity: 0.8;
+    font-family: "Ubuntu-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    line-height: 10px;
+    white-space: nowrap;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+    transition: color 0.3s ease; 
+  }
+  .text-wrapper-79 a {
+    text-decoration: none;
+    color: #ffffff; /* Установите цвет текста по умолчанию */
+    transition: color 0.3s ease;
+  }
+  .text-wrapper-79 a:hover {
+    color: #ff0000; 
+  }
+  .drupal-coder .text-wrapper-80 {
+    position: absolute;
+    top: 38px;
+    left: 710px;
+    opacity: 0.8;
+    font-family: "Ubuntu-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    line-height: 10px;
+    white-space: nowrap;
+    transition: color 0.3s ease; 
+  }
+  .text-wrapper-80 a {
+    text-decoration: none;
+    color: #ffffff; /* Установите цвет текста по умолчанию */
+    transition: color 0.3s ease;
+  }
+  .text-wrapper-80 a:hover {
+    color: #ff0000; 
+  }
+  
+  .drupal-coder .text-wrapper-81 {
+    position: absolute;
+    top: 38px;
+    left: 796px;
+    opacity: 0.8;
+    font-family: "Ubuntu-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    line-height: 10px;
+    white-space: nowrap;
+    transition: color 0.3s ease; 
+  }
+  .text-wrapper-81 a {
+    text-decoration: none;
+    color: #ffffff; /* Установите цвет текста по умолчанию */
+    transition: color 0.3s ease;
+  }
+  .text-wrapper-81 a:hover {
+    color: #ff0000; 
+  }
+  
+  .drupal-coder .text-wrapper-82 {
+    position: absolute;
+    top: 38px;
+    left: 496px;
+    opacity: 0.8;
+    font-family: "Ubuntu-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    line-height: 10px;
+    white-space: nowrap;
+    transition: color 0.3s ease; 
+  }
+  .text-wrapper-82 a {
+    text-decoration: none;
+    color: #ffffff; /* Установите цвет текста по умолчанию */
+    transition: color 0.3s ease;
+  }
+  .text-wrapper-82 a:hover {
+    color: #ff0000; 
+  }
+  
+  .drupal-coder .arrow-lang {
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 41px;
+    left: 1298px;
+  }
+  
+  .drupal-coder .group-21 {
+    position: absolute;
+    width: 510px;
+    height: 306px;
+    top: 190px;
+    left: 127px;
+  }
+  
+  .drupal-coder .CMS-drupal {
+    width: 486px;
+    top: 135px;
+    opacity: 0.8;
+    color: var(--white);
+    font-size: 18px;
+    line-height: 28px;
+    position: absolute;
+    left: 0;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .text-wrapper-83 {
+    width: 506px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 52px;
+    line-height: 60px;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .group-22 {
+    position: absolute;
+    width: 222px;
+    height: 60px;
+    top: 246px;
+    left: 0;
+  }
+  
+  .drupal-coder .overlap-group-8 {
+    position: relative;
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: var(--icons-1);
+  }
+  
+  .drupal-coder .text-wrapper-84 {
+    position: absolute;
+    width: 219px;
+    height: 12px;
+    top: 22px;
+    left: -1px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.72px;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+  .drupal-coder .group-23 {
+    position: absolute;
+    width: 597px;
+    height: 292px;
+    top: 204px;
+    left: 730px;
+  }
+  
+  .drupal-coder .factoid {
+    top: 212px;
+    left: 413px;
+    position: absolute;
+    width: 180px;
+    height: 80px;
+  }
+  
+  .drupal-coder .text-wrapper-85 {
+    position: absolute;
+    width: 166px;
+    height: 29px;
+    top: -1px;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .text-wrapper-86 {
+    position: absolute;
+    width: 149px;
+    top: 32px;
+    left: 0;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .overlap-23 {
+    position: absolute;
+    width: 180px;
+    height: 82px;
+    top: 32px;
+    left: 200px;
+  }
+  
+  .drupal-coder .factoid-2 {
+    top: 2px;
+    left: 0;
+    position: absolute;
+    width: 180px;
+    height: 80px;
+  }
+  
+  .drupal-coder .text-wrapper-87 {
+    position: absolute;
+    width: 166px;
+    height: 29px;
+    top: -1px;
+    left: 13px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .text-wrapper-88 {
+    position: absolute;
+    width: 149px;
+    top: 32px;
+    left: 13px;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .rectangle-8 {
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: #f14d34;
+  }
+  
+  .drupal-coder .overlap-24 {
+    position: absolute;
+    width: 180px;
+    height: 84px;
+    top: 208px;
+    left: 200px;
+  }
+  
+  .drupal-coder .factoid-3 {
+    top: 4px;
+    left: 0;
+    position: absolute;
+    width: 180px;
+    height: 80px;
+  }
+  
+  .drupal-coder .factoid-4 {
+    top: 34px;
+    left: 413px;
+    position: absolute;
+    width: 180px;
+    height: 80px;
+  }
+  
+  .drupal-coder .factoid-5 {
+    top: 212px;
+    left: 13px;
+    position: absolute;
+    width: 180px;
+    height: 80px;
+  }
+  
+  .drupal-coder .rectangle-9 {
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    top: 32px;
+    left: 400px;
+    background-color: #f14d34;
+  }
+  
+  .drupal-coder .rectangle-10 {
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    top: 208px;
+    left: 0;
+    background-color: #f14d34;
+  }
+  
+  .drupal-coder .rectangle-11 {
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    top: 208px;
+    left: 400px;
+    background-color: #f14d34;
+  }
+  
+  .drupal-coder .overlap-25 {
+    position: absolute;
+    width: 161px;
+    height: 112px;
+    top: 0;
+    left: 13px;
+  }
+  
+  .drupal-coder .cup {
+    position: absolute;
+    width: 59px;
+    height: 58px;
+    top: 0;
+    left: 54px;
+    object-fit: cover;
+  }
+  
+  .drupal-coder .overlap-26 {
+    position: absolute;
+    width: 161px;
+    height: 103px;
+    top: 9px;
+    left: 0;
+  }
+  
+  .drupal-coder .text-wrapper-89 {
+    position: absolute;
+    width: 54px;
+    height: 59px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .drupal-coder .drupal {
+    width: 161px;
+    top: 58px;
+    left: 0;
+    opacity: 0.7;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 12px;
+    line-height: normal;
+    position: absolute;
+    letter-spacing: 0;
+  }
+  
+  .drupal-coder .rectangle-12 {
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    top: 32px;
+    left: 0;
+    background-color: #f14d34;
+  }
+  
+  .drupal-coder .line {
+    position: absolute;
+    width: 140px;
+    height: 3px;
+    top: 56px;
+    left: 325px;
+  }
+  
