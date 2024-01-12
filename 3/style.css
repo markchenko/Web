@@ -21,6 +21,7 @@ body {
   }
   
   
+  
   .dropdown {
     position: relative;
     display: inline-block;
@@ -58,6 +59,7 @@ body {
     right: 0;
     border-left: 1px solid #000;
     border-bottom: 1px solid #000;
+    order: 1;
   }
   
   nav a {
@@ -78,12 +80,14 @@ body {
     position: absolute;
     top: 0;
     margin-top: 15px;
+    order: 2;
   }
   
   .site-title {
     margin-left: 150px;
     margin-top: 10px;
     font-size: 40px;
+    order: 3;
   }
   
   .content {
@@ -177,4 +181,36 @@ body {
   }
   
   
-  
+  @media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        order: 0;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .site-title {
+        order: 2;
+        margin-left: 0;
+    }
+
+    section {
+        width: 48%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 599px) {
+   
+
+    section {
+        order: -1; 
+    }
+}
