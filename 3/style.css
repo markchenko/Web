@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 140px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: #000000;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px; 
+  }
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  
+  .dropdown-content a:not(:last-child) {
+    border-bottom: 1px solid #777;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: rgb(165, 165, 235); 
+  }
+  
+  
+  .logo {
+    float: left;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+  }
+  
+  .site-title {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .table-content {
+    margin-top: 20px;
+  }
+  
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  
+  
+  section {
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  
+  .section1 {
+    background-color: #fffacd; 
+    
+  }
+  .section1 ul {
+    list-style: circle; 
+    margin-left: 10px; 
+    text-align: center;
+    list-style-position: inside;
+    
+  }
+  .section1 ul ol {
+    text-align: center;
+    list-style-position: inside;
+  }
+  
+  .section2 {
+    background-color: #81c784; 
+  }
+  
+  
+  .section3 {
+    background-color: #64b5f6; 
+  }
+  
+  
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+  }
+  
+  th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+  }
+  
+  th {
+      background-color: #db89d0;
+  }
+  
+  .odd-row {
+      background-color: #e6e6e6; 
+  }
+  
+  .even-row {
+      background-color: #f9f9f9; 
+  }
+  
+  
+  

@@ -1,168 +1,251 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+
 <head>
-  <title>Ширина, выравнивание, float</title>
-  <style>
-    /* Общие стили */
-    /* Первыми применяются стили для мобильных устройств */
-    body {
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh; /* Минимальная высота равная высоте видимой области */
-    }
-
-    /* Шапка */
-    .header,
-    .nav,
-    .content,
-    .footer {
-      background-color: #ccc;
-      padding: 10px;
-    }
-
-    /* Шапка и Футер */
-    .header,
-    .footer {
-      text-align: center;
-    }
-
-    /* Навигация */
-    .nav ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      list-style: none;
-      padding: 0;
-    }
-
-    .nav li {
-      margin-bottom: 10px;
-    }
-
-  
-    .content {
-      flex: 1; 
-      display: flex;
-      flex-direction: column;
-    }
-
-    .content div {
-      margin-bottom: 10px;
-    }
-
-    @media screen and (max-width: 600px) {
-      /* Порядок элементов на мобильных устройствах */
-      .content div:nth-child(1) {
-        order: 1; 
-      }
-
-      .content div:nth-child(2) {
-        order: 2; 
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Пример страницы с гиперссылками</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="robots" content="noindex">
 </head>
+
+<header>
+  <nav>
+    <div class="dropdown">
+      <a href="#">Ссылка меню 1</a>
+      <div class="dropdown-content">
+        <a href="../index.html">Подссылка 1</a>
+        <a href="../index.html">Подссылка 2</a>
+        <a href="../index.html">Подссылка 3</a>
+      </div>
+    </div>
+    <a href="../index.html">Ссылка 2</a>
+    <a href="../index.html">Ссылка 3</a>
+  </nav>
+  <div class="logo">
+    <img src="logo1.png" alt="Название вашего логотипа" width="108" height="108"></div>
+  <div class="site-title">Название сайта</div>
+</header>
+
+
 <body>
-  <div class="header">
-    <div style="background-color:#ddd;">Название сайта</div>
-  </div>
+  <div class="container">
+    <section class="section1">
+      <h1>Список гиперссылок</h1>
+      <ul>
+        <li><a href="http://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
+        <li><a href="https://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта kubsu.ru в протоколе HTTPS</a>
+        </li>
+        <li><a href="image.jpg"><img src="image.jpg" alt="Ссылка-изображение" width="300" height="200"></a></li>
 
-  <div class="nav">
-    <ul>
-      <li><a href="#">Ссылка 1</a></li>
-      <li><a href="#">Ссылка 2</a></li>
-      <li><a href="#">Ссылка 3</a></li>
+        <li><a href="internal-page.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+        <li><a href="">Сокращенная ссылка на главную страницу</a></li>
+        <li><a href="#raspisanie">Ссылка на фрагмент текущей страницы</a></li>
+        <li><a href="https://markchenko.github.io/Web/1/file1.html?param1=value1&param2=value2&param3=value3">Ссылка с
+            тремя параметрами</a></li>
+        <li><a href="https://markchenko.github.io/Web/1/file1.html?id=123">Ссылка с параметром id</a></li>
+        <li><a href="current.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+        <li><a href="about/page.html">Относительная ссылка на страницу в каталоге about</a></li>
+        <li><a href="../">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+        <li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+        <li>Контекстная ссылка: <a href="../index.html#section1">Ссылка на фрагмент страницы стороннего сайта</a></li>
+        <li>
+          <img src="image.jpg" alt="Изображение с ссылками" usemap="#linkmap" width="300" height="200">
+          <map name="linkmap">
+            <area shape="rect" coords="0,0,50,50" href="rectangular-link.html" alt="Прямоугольная ссылка">
+            <area shape="circle" coords="75,75,50" href="circular-link.html" alt="Круглая ссылка">
+          </map>
+        </li>
+        <li><a id="customLink">Ссылка без href</a></li>
+        <li><a href="">Ссылка с пустым href</a></li>
+
+
+        <script>
+          document.getElementById("customLink").addEventListener("click", function () {
+
+            alert("Вы кликнули на ссылку!");
+          });
+        </script>
+
+        <li><a href="https://www.youtube.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+        <li><a href="https://www.youtube.com/" rel="nofollow noindex">Ссылка, запрещенная для индексации
+            поисковиками</a></li>
+      
+      <h2>Нумерованный список ссылок с подписями </h2>
+      <ol>
+        <li><a href="../index.html" title="Ссылка 1">Ссылка 1</a></li>
+        <li><a href="../index.html" title="Ссылка 2">Ссылка 2</a></li>
+        <li><a href="../index.html" title="Ссылка 3">Ссылка 3</a></li>
+      </ol>
     </ul>
-  </div>
 
-  <div class="content">
-    <div style="background-color:#ddd;">
-        <ul>
-            <li><a href="http://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
-            <li><a href="https://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта kubsu.ru в протоколе HTTPS</a></li>
-            <li><a href="1/image.jpg"><img src="1/image.jpg" alt="Ссылка-изображение"></a></li>
-            <li><a href="internal-page.html">Сокращенная ссылка на внутреннюю страницу</a></li>
-            <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
-            <li><a href="#fragment">Ссылка на фрагмент текущей страницы</a></li>
-            <li><a href="page.php?param1=value1&param2=value2&param3=value3">Ссылка с тремя параметрами в URL</a></li>
-            <li><a href="page.php?id=123">Ссылка с параметром id в URL</a></li>
-            <li><a href="current-directory-page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
-            <li><a href="about/page.html">Относительная ссылка на страницу в каталоге about</a></li>
-        
-            <li><a href="../parent-directory-page.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
-            <li><a href="../../grandparent-directory-page.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
-            <li>Контекстная ссылка в тексте абзаца: <a href="http://example.com/fragment">Ссылка на фрагмент страницы стороннего сайта</a></li>
-            <li><a href="external-page.html#section">Ссылка на фрагмент страницы стороннего сайта</a></li>
-            <li>
-              <img src="1/image.jpg" alt="Изображение с ссылками" usemap="#linkmap" width="300" height="200">
-              <map name="linkmap">
-                <area shape="rect" coords="0,0,50,50" href="rectangular-link.html" alt="Прямоугольная ссылка">
-                <area shape="circle" coords="75,75,50" href="circular-link.html" alt="Круглая ссылка">
-              </map>
-            </li>
-            <li><a href="#">Ссылка с пустым href</a></li>
-            <li><a href="http://1">Ссылка без href</a></li>
-            <li><a href="no-follow-page.html" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
-            <li><a href="no-index-page.html">Ссылка, запрещенная для индексации поисковиками</a></li>
-          </ul></div>
-    <div style="background-color:#ddd;">
-        <ol>
-        <li><a href="page1.html" title="Ссылка 1">Ссылка 1</a></li>
-        <li><a href="page2.html" title="Ссылка 2">Ссылка 2</a></li>
-        <li><a href="page3.html" title="Ссылка 3">Ссылка 3</a></li>
-      </ol></div>
+      <h2>Ссылка на файл на сервере FTP с авторизацией</h2>
+      <ul>
+        <li>
+          <a href="ftp://username:password@ftp.example.com/path/to/file">Ссылка на файл на сервере FTP с
+            авторизацией</a>
+        </li>
+      </ul>
 
-    
-      
-    <div style="background-color:#ddd;">
-        <h2>Форма</h2>
-        <form action="/submit" method="post">
-          <label for="fio">ФИО:</label><br>
-          <input type="text" id="fio" name="fio" required><br><br>
-      
-          <label for="phone">Телефон:</label><br>
-          <input type="tel" id="phone" name="phone" required><br><br>
-      
-          <label for="email">E-mail:</label><br>
-          <input type="email" id="email" name="email" required><br><br>
-      
-          <label for="dob">Дата рождения:</label><br>
-          <input type="date" id="dob" name="dob" required><br><br>
-      
-          <label>Пол:</label><br>
-          <input type="radio" id="male" name="gender" value="male">
-          <label for="male">Мужской</label>
-          <input type="radio" id="female" name="gender" value="female">
-          <label for="female">Женский</label><br><br>
-      
-          <label for="languages">Любимый язык программирования:</label><br>
-          <select id="languages" name="languages[]" multiple>
-            <option value="Pascal">Pascal</option>
-            <option value="C">C</option>
-            <option value="C++">C++</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="PHP">PHP</option>
-            <option value="Python">Python</option>
-            <option value="Java">Java</option>
-            <option value="Haskell">Haskell</option>
-            <option value="Clojure">Clojure</option>
-            <option value="Prolog">Prolog</option>
-            <option value="Scala">Scala</option>
-          </select><br><br>
-      
-          <label for="bio">Биография:</label><br>
-          <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
-      
-          <input type="checkbox" id="contract" name="contract" required>
-          <label for="contract">С контрактом ознакомлен(а)</label><br><br>
-      
-          <input type="submit" value="Сохранить">
-        </form></div>
-  </div>
+    </section>
 
-  <div class="footer">
-    <div style="background-color:#ddd;">Имя фамилия</div>
+    <section class="section2">
+
+
+
+      <h id="raspisanie"> Расписание (Таблица)</h2>
+
+        <table>
+          <tr class="first-row">
+            <th>Время</th>
+            <th>Понедельник</th>
+            <th>Вторник</th>
+            <th>Среда</th>
+            <th>Четверг</th>
+            <th>Пятница</th>
+          </tr>
+
+          <tr class="odd-row">
+            <th rowspan="2">8:00 - 9:30</th>
+            <td>Математика</td>
+            <td>Физика</td>
+            <td>Информатика</td>
+            <td>Английский</td>
+            <td>Химия</td>
+          </tr>
+          <tr class="even-row">
+            <td>Литература</td>
+            <td>Физкультура</td>
+            <td>История</td>
+            <td>Биология</td>
+            <td>Обед</td>
+          </tr>
+          <tr class="odd-row">
+            <th rowspan="2">11:30 - 13:00</th>
+            <td>Химия</td>
+            <td>География</td>
+            <td>Физика</td>
+            <td>Математика</td>
+            <td>Информатика</td>
+          </tr>
+          <tr class="even-row">
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+          </tr>
+          <tr class="odd-row">
+            <th rowspan="2">15:00 - 16:30</th>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+          </tr>
+          <tr class="even-row">
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+            <td>Новый предмет</td>
+          </tr>
+        </table>
+
+    </section>
+
+
+    <section class="section3">
+      <h2>Форма</h2>
+      <form id="myForm" action="/submit" method="post">
+        <label for="fio">ФИО:</label><br>
+        <input type="text" id="fio" name="fio" required><br><br>
+
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="dob">Дата рождения:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Пол:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label><br><br>
+
+        <label for="languages">Любимый язык программирования:</label><br>
+        <select id="languages" name="languages[]" multiple>
+          <option value="Pascal">Pascal</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="PHP">PHP</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
+          <option value="Haskell">Haskell</option>
+          <option value="Clojure">Clojure</option>
+          <option value="Prolog">Prolog</option>
+          <option value="Scala">Scala</option>
+        </select><br><br>
+
+        <label for="bio">Биография:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+        <label for="country">Страна:</label><br>
+        <select id="country" name="country">
+          <option value="Russia">Россия</option>
+          <option value="USA">США</option>
+          <option value="China">Китай</option>
+        </select><br><br>
+
+        <label>Уровень образования:</label><br>
+        <input type="radio" id="highschool" name="education" value="highschool">
+        <label for="highschool">Среднее образование</label>
+        <input type="radio" id="college" name="education" value="college">
+        <label for="college">Высшее образование</label><br><br>
+
+        <input type="checkbox" id="contract" name="contract" required>
+        <label for="contract">С контрактом ознакомлен(а)</label><br><br>
+
+        <input type="submit" value="Отправить">
+      </form>
+
+
+
+      <script>
+        document.getElementById("myForm").addEventListener("submit", function (event) {
+          var fio = document.getElementById("fio").value;
+          var phone = document.getElementById("phone").value;
+          var email = document.getElementById("email").value;
+          var dob = document.getElementById("dob").value;
+          var gender = document.querySelector('input[name="gender"]:checked');
+          var languages = document.getElementById("languages").value;
+          var bio = document.getElementById("bio").value;
+          var country = document.getElementById("country").value;
+          var education = document.querySelector('input[name="education"]:checked');
+          var contract = document.getElementById("contract");
+
+          if (!fio || !phone || !email || !dob || !gender || !languages || !bio || !country || !education || !contract.checked) {
+            alert("Пожалуйста, заполните все обязательные поля");
+            event.preventDefault();
+          } else {
+            alert("Данные отправлены!");
+          
+          }
+        });
+      </script>
+
+
+
+    </section>
   </div>
+  <footer>
+    <div class="container">
+      Имя Фамилия
+    </div>
+  </footer>
 </body>
+
 </html>
