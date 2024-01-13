@@ -27,13 +27,13 @@ $(document).ready(function() {
         }
     }
 
-    // Обработка отправки формы
+   
     $feedbackForm.submit(function(event) {
         event.preventDefault();
         
         var formData = $feedbackForm.serialize();
         
-        // Отправка данных на сервер
+     
         $.ajax({
             type: 'POST',
             url: 'https://formcarry.com/s/wa5jL-RNxy', 
